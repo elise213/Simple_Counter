@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
-import "/workspace/react-hello/src/styles/index.css";
+import React from 'react';
+import { useEffect, useState } from "react";
+import "../../styles/index.css";
 
 function SecondsCounter(props) {
   const [counter, setCounter] = useState(0);
